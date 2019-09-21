@@ -1,0 +1,47 @@
+p {
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+}
+h1 {
+    font-family: ROBOTO;
+    font-size: 40px;
+}
+h2 {
+    font-family: ROBOTO;
+    font-size: 40px;  
+}
+h3 {
+    font-family: ROBOTO;
+    font-size: 40px;
+}
+h4 {
+    font-family: ROBOTO;
+    font-size: 40px;
+}
+h5 {
+    font-family: ROBOTO;
+    font-size: 40px;
+}
+h6 {
+    font-family: ROBOTO;
+    font-size: 40px;
+}
+a {
+    font-family: 'Courier New', Courier, monospace;
+    position: static;
+    margin: 20px;
+    display: block;
+    width: 100%;
+	max-width: 500px;
+    min-width: 225px;
+    border-radius: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #457;
+	box-shadow: 3px 0px 3px 0px rgb(73, 73, 73);
+	
+    
+ 
+}
