@@ -1,0 +1,181 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	z-index: 0;
+	font-size: 100%;
+	background: url(/img/bg.jpg);
+	background-size: 100%;
+}
+
+h1 {
+	display: inline-block;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 27px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	text-transform: capitalize;
+
+}
+
+div {
+	z-index: 2;
+	background-color: black;
+	max-width: 1100px;
+	width: 100%;
+}
+
+.forecast {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.forecast_chart {
+	border: 3px solid gold;
+	text-align: center;
+	font-size: 0;
+
+}
+
+.cell_small:hover, .cell_big:hover, .cell_medium:hover  {
+	opacity: 1;
+	cursor: pointer;
+	transition:.4s ease-in;
+}
+
+.cell_small a, .cell_big a, .cell_medium a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+.cell_small, .cell_big, .cell_medium {
+	display: inline-block;
+	font-size: 25px;
+	color: white;
+	margin: 0 auto;
+	border: 3px solid gold;
+	opacity: 0.5;
+}
+
+.cell_small {
+	width: 25%;
+}
+
+.cell_dig {
+	width: 100%;
+}
+
+.cell_medium {
+	width: 50%;
+}
+
+.name {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 23px;
+	padding-top: 10px;
+}
+
+p {
+	text-transform: capitalize;
+}
+
+.temperature {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.link_mars {
+	background-image: url(/img/mars.jpg);
+	background-position: 50% 95%;
+	background-size: 105%;
+}
+
+.link_terra {
+	background-image: url(/img/terra.jpg);
+	background-position: 191% 285%;
+	background-size: 100%;
+}
+
+.link_konor {
+	background-image: url(/img/konor.jpg);
+	background-position: 184% 255%;
+	background-size: 140%;
+}
+
+.link_kadia {
+	background-image: url(/img/cadia.jpg);
+	background-position: 100% 285%;
+	background-size: 198%;
+}
+
+.link_ophelia {
+	background-image: url(/img/ophelia.jpg);
+	background-position: 302% 285%;
+	background-size: 200%;
+}
+
+.link_nostramo {
+	background-image: url(/img/nostramo.jpg);
+	background-position: 191% 285%;
+	background-size: 210%;
+}
+
+.link_lazar {
+	background-image: url(/img/lazar.jpg);
+	background-position: 230% 280%;
+	background-size: 250%;
+}
+
+.link_prometheus {
+	background-image: url(/img/prometheus.jpg);
+	background-position: 1% 220%;
+	background-size: 170%;
+}
+
+.link_medusa {
+	background-image: url(/img/medusa.jpg);
+	background-position: 191% 285%;
+	background-size: 100%;
+}
+
+.link_vigilus {
+	background-image: url(/img/vigilus.jpg);
+	background-position: 191% 285%;
+	background-size: 100%;
+}
+
+.link_krieg {
+	background-image: url(/img/krieg.jpg);
+	background-position: 227% 245%;
+	background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.degrees {
+	display: inline-block;
+	margin-right: 5px;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 25px;
+	float: left;
+}
+*/

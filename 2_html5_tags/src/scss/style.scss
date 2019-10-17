@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: block;
+	background: #121116;
+	box-sizing: border-box;
+}
+
+.navigation__list-item {
+	display: inline-block;
+	max-width: 190px;
+}
+
+
+/*	#121116 - background
+	#1abeec - text blue
+	#19c8fa - kasper
+	*/
