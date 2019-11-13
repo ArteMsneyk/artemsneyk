@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sacramento&display=swap');
+
+$main-font: 'Poppins', sans-serif;
+$secondary-font: 'Libre Baskerville', serif;
+$sign-font: 'Sacramento', cursive;
+
+
+$black: #000;
+$white: #fff;
+
+$text-color:#616161;
+
+$white-bg: $white;
+
+$orange-logo: #fc5f45;
+$bg-header: #3f4049;
+$menu-color: #272727;
+$cyan-text: #38c695;
+$violet-text: #8b66bd;
+$orange-text: #feb960;
+$pink-text: #d9aca5;
+$yellow-text: #feb960;
+$bg-text: #f6f6f6;
+$gradient-start-color: #cccccc;
+$pink-text: #d9aca5;
+$section-grey-text: #616161;
+$even-section-bg: #f7f7f7;
+$section-title: #313131;
+$work-steps-nums: #e0e0e0;
+
+$transition: all .3s ease;
+
+$header-colors: {
+	1:$cyan-text;
+	2:$violet-text;
+	3:$yellow-text;
+};

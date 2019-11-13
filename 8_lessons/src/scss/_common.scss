@@ -1,0 +1,51 @@
+ *,
+ *::before,
+ *::after {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+ html, body {
+ 	min-height: 100vh;
+ }
+
+ boby {
+ 	font-size: $base-size;
+ 	font-family: $main-font;
+ }
+
+ .al-dark-bg {
+ 	background-color: $dark-bg;
+
+ 	& + .al-section {
+ 		background-color: white-bg;
+
+ 		& + .al-section {
+ 			background-color: $grey-bg;
+ 		}
+ 	}
+ }
+
+
+ ul {
+ 	li {
+ 		a {
+ 			display: flex;
+ 			text-decoration: none;
+
+ 		}
+ 	}
+ }
+
+ .container {
+ 	width: 100%;
+ 	max-width: 1170px;
+ 	margin: 0 auto;
+ 	padding: 0 15px;
+ }
+
+ .al-logo {
+ 	font-family: $sign-font;
+ 	font-size: 
+ }
